@@ -1,24 +1,147 @@
-# README
+# Web-palvelinohjelmointi Ruby on Rails, syksy 2022 kurssin palautusrepositorio
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Tehtäväkirjanpito
 
-Things you may want to cover:
+Minimissään 50% tehtävistä (53 tehtävää) pitää olla tehtynä.
 
-* Ruby version
+Tehtynä yht. 19/106 (18%)
 
-* System dependencies
+### Viikko 1
 
-* Configuration
+- [x] Tehtävä 1
+- [x] Tehtävä 2
+- [x] Tehtävä 3
+- [x] Tehtävä 4
+- [x] Tehtävä 5
+- [x] Tehtävä 6
+- [x] Tehtävä 7
+- [x] Tehtävä 8
+- [x] Tehtävä 9
+- [x] Tehtävä 10
+- [x] Tehtävä 11
 
-* Database creation
+yht. 11/11 (100%)
 
-* Database initialization
+### Viikko 2
 
-* How to run the test suite
+- [x] Tehtävä 1
+- [x] Tehtävä 2
+- [x] Tehtävä 3
+- [x] Tehtävä 4
+- [x] Tehtävä 5
+- [x] Tehtävä 6
+- [x] Tehtävä 7
+- [x] Tehtävä 8
+- [ ] Tehtävä 9
+- [ ] Tehtävä 10
+- [ ] Tehtävä 11
+- [ ] Tehtävä 12
+- [ ] Tehtävä 13
+- [ ] Tehtävä 14
+- [ ] Tehtävä 15
+- [ ] Tehtävä 16
 
-* Services (job queues, cache servers, search engines, etc.)
+yht. 8/16 (50%)
 
-* Deployment instructions
+### Viikko 3
 
-* ...
+- [ ] Tehtävä 1
+- [ ] Tehtävä 2
+- [ ] Tehtävä 3
+- [ ] Tehtävä 4
+- [ ] Tehtävä 5
+- [ ] Tehtävä 6
+- [ ] Tehtävä 7
+- [ ] Tehtävä 8
+- [ ] Tehtävä 9
+- [ ] Tehtävä 10
+- [ ] Tehtävä 11
+- [ ] Tehtävä 12
+- [ ] Tehtävä 13
+- [ ] Tehtävä 14
+- [ ] Tehtävä 15
+- [ ] Tehtävä 16
+
+yht. 0/16 (0%)
+
+### Viikko 4
+
+- [ ] Tehtävä 1
+- [ ] Tehtävä 2
+- [ ] Tehtävä 3
+- [ ] Tehtävä 4
+- [ ] Tehtävä 5
+- [ ] Tehtävä 6
+- [ ] Tehtävä 7
+- [ ] Tehtävä 8
+- [ ] Tehtävä 9
+- [ ] Tehtävä 10
+- [ ] Tehtävä 11
+- [ ] Tehtävä 12
+- [ ] Tehtävä 13
+- [ ] Tehtävä 14
+- [ ] Tehtävä 15
+- [ ] Tehtävä 16
+
+yht. 0/16 (0%)
+
+
+### Viikko 5
+
+- [ ] Tehtävä 1
+- [ ] Tehtävä 2
+- [ ] Tehtävä 3
+- [ ] Tehtävä 4
+- [ ] Tehtävä 5
+- [ ] Tehtävä 6
+- [ ] Tehtävä 7
+- [ ] Tehtävä 8
+- [ ] Tehtävä 9
+- [ ] Tehtävä 10
+- [ ] Tehtävä 11
+- [ ] Tehtävä 12
+- [ ] Tehtävä 13
+- [ ] Tehtävä 14
+- [ ] Tehtävä 15
+- [ ] Tehtävä 16
+
+yht. 0/16 (0%)
+
+### Viikko 6
+
+- [ ] Tehtävä 1
+- [ ] Tehtävä 2
+- [ ] Tehtävä 3
+- [ ] Tehtävä 4
+- [ ] Tehtävä 5
+- [ ] Tehtävä 6
+- [ ] Tehtävä 7
+- [ ] Tehtävä 8
+- [ ] Tehtävä 9
+- [ ] Tehtävä 10
+- [ ] Tehtävä 11
+- [ ] Tehtävä 12
+- [ ] Tehtävä 13
+- [ ] Tehtävä 14-16 (kolmen pisteen arvoinen tehtävä)
+
+yht. 0/16 (0%)
+
+### Viikko 7
+
+- [ ] Tehtävä 1
+- [ ] Tehtävä 2
+- [ ] Tehtävä 3
+- [ ] Tehtävä 4
+- [ ] Tehtävä 5
+- [ ] Tehtävä 6
+- [ ] Tehtävä 7
+- [ ] Tehtävä 8
+- [ ] Tehtävä 9
+- [ ] Tehtävä 10
+- [ ] Tehtävä 11
+- [ ] Tehtävä 12
+- [ ] Tehtävä 13
+- [ ] Tehtävä 14
+- [ ] Tehtävä 15
+
+yht. 0/15 (0%)

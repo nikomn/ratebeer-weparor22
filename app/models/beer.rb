@@ -7,4 +7,8 @@ class Beer < ApplicationRecord
     # Tehtävä 5, esim:
     # ratings.map{|key| key.score}.inject(:+).to_f / ratings.size
   end
+
+  def to_s
+    name + ", " + brewery.name
+  end
 end
