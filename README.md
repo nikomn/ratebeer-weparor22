@@ -4,7 +4,7 @@
 
 Minimissään 50% tehtävistä (53 tehtävää) pitää olla tehtynä.
 
-Tehtynä yht. 23/106 (22%)
+Tehtynä yht. 24/106 (23%)
 
 ### Viikko 1
 
@@ -36,10 +36,12 @@ yht. 11/11 (100%)
 - [x] Tehtävä 10
 - [x] Tehtävä 11
 - [x] Tehtävä 12
-- [ ] Tehtävä 13
+- [x] Tehtävä 13
 - [ ] Tehtävä 14
 - [ ] Tehtävä 15
 - [ ] Tehtävä 16
+
+yht. 13/16 (81%)
 
 #### Teht. 12
 
@@ -47,9 +49,6 @@ yht. 11/11 (100%)
 poistettavat = Rating.where "beer_id=tähän-poistetun-id"
 poistettavat.each { |alkio| puts alkio.delete }
 ```
-
-
-yht. 12/16 (75%)
 
 ### Viikko 3
 
