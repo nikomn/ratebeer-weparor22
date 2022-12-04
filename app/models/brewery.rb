@@ -1,4 +1,5 @@
 class Brewery < ApplicationRecord
+  include RatingAverage
   has_many :beers, dependent: :destroy
   has_many :ratings, through: :beers
 
@@ -13,7 +14,7 @@ class Brewery < ApplicationRecord
     puts "changed year to #{year}"
   end
 
-  def average_rating
-    ratings.average(:score).to_f
-  end
+  # def average_rating
+  #   ratings.average(:score).to_f
+  # end
 end
