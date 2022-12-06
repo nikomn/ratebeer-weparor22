@@ -9,10 +9,10 @@ class RatingsController < ApplicationController
   end
 
   def create
-    #binding.pry
+    # binding.pry
     Rating.create params.require(:rating).permit(:score, :beer_id)
     redirect_to ratings_path
-    #redirect_to "http://www.cs.helsinki.fi"
+    # redirect_to "http://www.cs.helsinki.fi"
   end
 
   def destroy
