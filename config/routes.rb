@@ -17,6 +17,8 @@ Rails.application.routes.draw do
   # post 'ratings', to: 'ratings#create'
 
   get 'signup', to: 'users#new'
+  get 'signin', to: 'sessions#new'
+  delete 'signout', to: 'sessions#destroy'
 
   resource :session, only: [:new, :create, :destroy]
 
