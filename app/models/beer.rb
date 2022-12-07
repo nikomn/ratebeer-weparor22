@@ -3,6 +3,8 @@ class Beer < ApplicationRecord
   belongs_to :brewery
   has_many :ratings, dependent: :destroy
 
+  validates :name, presence: true
+
   # def average_rating
   #   ratings.average(:score).to_f
   #   # Tehtävä 5, esim:
