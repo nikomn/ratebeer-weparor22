@@ -4,7 +4,7 @@
 
 Minimissään 50% tehtävistä (53 tehtävää) pitää olla tehtynä.
 
-Tehtynä yht. 31/106 (29%)
+Tehtynä yht. 36/106 (34%)
 
 ### Viikko 1
 
@@ -56,20 +56,20 @@ poistettavat.each { |alkio| puts alkio.delete }
 - [x] Tehtävä 2
 - [x] Tehtävä 3
 - [x] Tehtävä 4
-- [ ] Tehtävä 5
-- [ ] Tehtävä 6
-- [ ] Tehtävä 7
-- [ ] Tehtävä 8
+- [x] Tehtävä 5
+- [x] Tehtävä 6
+- [x] Tehtävä 7
+- [x] Tehtävä 8
 - [ ] Tehtävä 9
 - [ ] Tehtävä 10
 - [ ] Tehtävä 11
-- [ ] Tehtävä 12
+- [x] Tehtävä 12
 - [ ] Tehtävä 13
 - [ ] Tehtävä 14
 - [ ] Tehtävä 15
 - [ ] Tehtävä 16
 
-yht. 4/16 (25%)
+yht. 9/16 (56%)
 
 ### Viikko 4
 
