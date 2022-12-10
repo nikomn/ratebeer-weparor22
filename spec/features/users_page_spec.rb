@@ -33,4 +33,25 @@ describe "User" do
       click_button('Create User')
     }.to change{User.count}.by(1)
   end
+
+  it "shows only users own ratings" do
+    user = FactoryBot.create(:user, username: "First user")
+    user2 = FactoryBot.create(:user, username: "Other user")
+    FactoryBot.create(:rating, score: 10, user: user)
+    FactoryBot.create(:rating, score: 12, user: user)
+    FactoryBot.create(:rating, score: 14, user: user)
+    FactoryBot.create(:rating, score: 16, user: user2)
+    visit user_path(user)
+    expect(page).to have_content "This user has made 3 ratings with an average of 12.0"
+    expect(page).to have_content "anonymous 10"
+    expect(page).to have_content "anonymous 12"
+    expect(page).to have_content "anonymous 14"
+    expect(page).not_to have_content "anonymous 16"
+    visit user_path(user2)
+    expect(page).to have_content "This user has made 1 rating with an average of 16.0"
+    expect(page).not_to have_content "anonymous 10"
+    expect(page).not_to have_content "anonymous 12"
+    expect(page).not_to have_content "anonymous 14"
+    expect(page).to have_content "anonymous 16"
+  end
 end
