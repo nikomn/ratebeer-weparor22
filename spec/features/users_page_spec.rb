@@ -54,4 +54,18 @@ describe "User" do
     expect(page).not_to have_content "anonymous 14"
     expect(page).to have_content "anonymous 16"
   end
+
+  it "clicking on delete link deletes rating from database" do
+    user = FactoryBot.create(:user, username: "First user")
+    FactoryBot.create(:rating, score: 10, user: user)
+    sign_in(username: "First user", password: "Foobar1")
+    visit user_path(user)
+    expect(page).to have_content "This user has made 1 rating with an average of 10.0"
+    expect(page).to have_content "anonymous 10"
+    expect{
+      click_link "Delete"
+    }.to change{Rating.count}.from(1).to(0)
+    expect(page).not_to have_content "This user has made 1 rating with an average of 10.0"
+    expect(page).not_to have_content "anonymous 10"
+  end
 end
