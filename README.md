@@ -4,7 +4,7 @@
 
 Minimissään 50% tehtävistä (53 tehtävää) pitää olla tehtynä.
 
-Tehtynä yht. 46/106 (43%)
+Tehtynä yht. 47/106 (44%)
 
 ### Viikko 1
 
@@ -82,7 +82,7 @@ yht. 13/16 (81%)
 - [x] Tehtävä 7
 - [x] Tehtävä 8
 - [ ] Tehtävä 9*
-- [ ] Tehtävä 10
+- [x] Tehtävä 10
 - [ ] Tehtävä 11*
 - [ ] Tehtävä 12*
 - [ ] Tehtävä 13*
@@ -90,7 +90,7 @@ yht. 13/16 (81%)
 - [ ] Tehtävä 15
 - [ ] Tehtävä 16
 
-yht. 6/16 (37%)
+yht. 7/16 (43%)
 
 
 ### Viikko 5
