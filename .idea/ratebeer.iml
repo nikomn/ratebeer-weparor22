@@ -40,6 +40,7 @@
     <orderEntry type="library" scope="PROVIDED" name="activestorage (v7.0.4, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v7.0.4, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="addressable (v2.8.1, rbenv: 3.1.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.18, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bindex (v0.8.1, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.13.0, rbenv: 3.1.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.4, rbenv: 3.1.2) [gem]" level="application" />
@@ -469,6 +470,14 @@
           </RakeTaskImpl>
           <RakeTaskImpl description="" fullCommand="default" id="default" />
           <RakeTaskImpl description="" fullCommand="environment" id="environment" />
+          <RakeTaskImpl id="fly">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="fly:build" id="build" />
+              <RakeTaskImpl description="" fullCommand="fly:release" id="release" />
+              <RakeTaskImpl description="" fullCommand="fly:server" id="server" />
+              <RakeTaskImpl description="" fullCommand="fly:swapfile" id="swapfile" />
+            </subtasks>
+          </RakeTaskImpl>
           <RakeTaskImpl id="railties">
             <subtasks>
               <RakeTaskImpl id="install">
