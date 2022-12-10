@@ -6,4 +6,11 @@ class User < ApplicationRecord
   has_many :ratings, dependent: :destroy
   has_many :beers, through: :ratings
   has_secure_password
+
+  def favorite_beer
+    return nil if ratings.empty?   # palautetaan nil jos reittauksia ei ole
+    # ratings.sort_by{ |r| r.score }.last.beer
+    # ratings.sort_by(&:score).last.beer
+    ratings.order(score: :desc).limit(1).first.beer
+  end
 end

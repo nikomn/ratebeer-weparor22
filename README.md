@@ -75,18 +75,18 @@ yht. 13/16 (81%)
 
 - [x] Tehtävä 1
 - [x] Tehtävä 2
-- [ ] Tehtävä 3
-- [ ] Tehtävä 4
+- [ ] Tehtävä 3*
+- [ ] Tehtävä 4*
 - [ ] Tehtävä 5
 - [ ] Tehtävä 6
 - [ ] Tehtävä 7
 - [ ] Tehtävä 8
-- [ ] Tehtävä 9
+- [ ] Tehtävä 9*
 - [ ] Tehtävä 10
-- [ ] Tehtävä 11
-- [ ] Tehtävä 12
-- [ ] Tehtävä 13
-- [ ] Tehtävä 14
+- [ ] Tehtävä 11*
+- [ ] Tehtävä 12*
+- [ ] Tehtävä 13*
+- [ ] Tehtävä 14*
 - [ ] Tehtävä 15
 - [ ] Tehtävä 16
 
