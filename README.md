@@ -77,7 +77,7 @@ yht. 13/16 (81%)
 - [x] Tehtävä 2
 - [ ] Tehtävä 3*
 - [ ] Tehtävä 4*
-- [ ] Tehtävä 5
+- [x] Tehtävä 5
 - [ ] Tehtävä 6
 - [ ] Tehtävä 7
 - [ ] Tehtävä 8
