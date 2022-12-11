@@ -9,6 +9,7 @@ class User < ApplicationRecord
 
   def favorite_beer
     return nil if ratings.empty?   # palautetaan nil jos reittauksia ei ole
+
     # ratings.sort_by{ |r| r.score }.last.beer
     # ratings.sort_by(&:score).last.beer
     ratings.order(score: :desc).limit(1).first.beer

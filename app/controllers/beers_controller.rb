@@ -20,7 +20,7 @@ class BeersController < ApplicationController
   # GET /beers/new
   def new
     @beer = Beer.new
-    #set_breweries_and_styles_for_template
+    # set_breweries_and_styles_for_template
   end
 
   # GET /beers/1/edit
