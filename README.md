@@ -4,7 +4,7 @@
 
 Minimissään 50% tehtävistä (53 tehtävää) pitää olla tehtynä.
 
-Tehtynä yht. 49/106 (46%)
+Tehtynä yht. 50/106 (47%)
 
 ### Viikko 1
 
@@ -95,7 +95,7 @@ yht. 9/16 (56%)
 
 ### Viikko 5
 
-- [ ] Tehtävä 1
+- [x] Tehtävä 1
 - [ ] Tehtävä 2
 - [ ] Tehtävä 3
 - [ ] Tehtävä 4
@@ -112,7 +112,20 @@ yht. 9/16 (56%)
 - [ ] Tehtävä 15
 - [ ] Tehtävä 16
 
-yht. 0/16 (0%)
+yht. 1/16 (6%)
+
+#### Huom: Tehtävästä 1
+
+En viitsinyt kovakoodata omaa api keytäni sovellukseen (yleensä käsittääkseni
+huonohko käytäntö?), vaan tein toteutuksen siten, että api_key annetaan
+sovelluksen käynnistyksen yhteydessä komennolla
+
+```
+$ API_KEY=tähän-api-key rails server
+```
+
+Vaihtoehtoisesti voi myös lisätä api keyn tiedostoon app/controllers/places_controller.rb.
+
 
 ### Viikko 6
 

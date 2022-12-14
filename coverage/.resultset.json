@@ -495,6 +495,37 @@
         "branches": {
         }
       },
+      "/home/testaaja/Documents/rails-devaukset/ratebeer/app/controllers/places_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/home/testaaja/Documents/rails-devaukset/ratebeer/app/jobs/application_job.rb": {
         "lines": [
           0,
@@ -517,8 +548,19 @@
         ],
         "branches": {
         }
+      },
+      "/home/testaaja/Documents/rails-devaukset/ratebeer/app/models/place.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
       }
     },
-    "timestamp": 1670765431
+    "timestamp": 1671031328
   }
 }
