@@ -19,9 +19,8 @@ class BeermappingApi
   end
 
   def self.key
-    # Käynnistä serveri lokaalisti komennolla:
-    # API_KEY=tähän-api-key rails server
-    # ... tai korvaa ENV["API_KEY"] omalla api keyllä alla olevalle riville
-    ENV["API_KEY"]
+    return nil if Rails.env.test? # testatessa ei apia tarvita, palautetaan nil
+    raise 'BEERMAPPING_APIKEY env variable not defined' if ENV['BEERMAPPING_APIKEY'].nil?
+    ENV.fetch('BEERMAPPING_APIKEY')
   end
 end
