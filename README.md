@@ -101,9 +101,9 @@ yht. 9/16 (56%)
 - [x] Tehtävä 4
 - [x] Tehtävä 5
 - [x] Tehtävä 6
-- [ ] Tehtävä 7
-- [ ] Tehtävä 8
-- [ ] Tehtävä 9
+- [ ] Tehtävä 7*
+- [ ] Tehtävä 8*
+- [ ] Tehtävä 9*
 - [ ] Tehtävä 10
 - [ ] Tehtävä 11
 - [ ] Tehtävä 12
