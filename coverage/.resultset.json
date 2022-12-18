@@ -19,6 +19,12 @@
           null
         ]
       },
+      "/home/testaaja/Documents/rails-devaukset/ratebeer/app/helpers/styles_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
       "/home/testaaja/Documents/rails-devaukset/ratebeer/app/helpers/users_helper.rb": {
         "lines": [
           1,
@@ -27,6 +33,7 @@
       },
       "/home/testaaja/Documents/rails-devaukset/ratebeer/app/models/beer.rb": {
         "lines": [
+          1,
           1,
           1,
           1,
@@ -356,6 +363,13 @@
           null
         ]
       },
+      "/home/testaaja/Documents/rails-devaukset/ratebeer/app/models/style.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
       "/home/testaaja/Documents/rails-devaukset/ratebeer/app/controllers/beers_controller.rb": {
         "lines": [
           1,
@@ -365,6 +379,7 @@
           null,
           1,
           4,
+          null,
           4,
           null,
           null,
@@ -375,6 +390,8 @@
           null,
           null,
           1,
+          0,
+          0,
           null,
           null,
           null,
@@ -556,6 +573,82 @@
         "branches": {
         }
       },
+      "/home/testaaja/Documents/rails-devaukset/ratebeer/app/controllers/styles_controller.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/home/testaaja/Documents/rails-devaukset/ratebeer/app/jobs/application_job.rb": {
         "lines": [
           0,
@@ -580,6 +673,6 @@
         }
       }
     },
-    "timestamp": 1671210098
+    "timestamp": 1671368795
   }
 }

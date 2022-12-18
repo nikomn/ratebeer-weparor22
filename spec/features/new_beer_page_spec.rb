@@ -8,10 +8,11 @@ describe "New beer page" do
     sign_in(username: "Pekka", password: "Foobar1")
   end
 
-  describe "when brewery exists" do
+  describe "when brewery and style exists" do
     before :each do
       # jotta muuttuja näkyisi it-lohkoissa, tulee sen nimen alkaa @-merkillä
       @brewery = FactoryBot.create(:brewery, name: "Koff", year: 1900)
+      @style = FactoryBot.create(:style)
     end
 
     it "it is possible to create new beers with valid name" do
