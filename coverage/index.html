@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2022-12-18T15:06:35+02:00">2022-12-18T15:06:35+02:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2022-12-18T15:09:50+02:00">2022-12-18T15:09:50+02:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -161,7 +161,7 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#d5f7e9ef00d380c6319891408843ba9604770d74" class="src_link" title="app/controllers/styles_controller.rb">app/controllers/styles_controller.rb</a></td>
             <td class="red strong cell--number t-file__coverage">0.00 %</td>
-            <td class="cell--number">70</td>
+            <td class="cell--number">71</td>
             <td class="cell--number">50</td>
             <td class="cell--number">0</td>
             <td class="cell--number">50</td>
@@ -348,7 +348,7 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#dba61eadb80decbf876800127bdd79e81598e59d" class="src_link" title="lib/beermapping_api.rb">lib/beermapping_api.rb</a></td>
             <td class="yellow strong cell--number t-file__coverage">87.50 %</td>
-            <td class="cell--number">26</td>
+            <td class="cell--number">27</td>
             <td class="cell--number">16</td>
             <td class="cell--number">14</td>
             <td class="cell--number">2</td>
@@ -484,7 +484,7 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#d5f7e9ef00d380c6319891408843ba9604770d74" class="src_link" title="app/controllers/styles_controller.rb">app/controllers/styles_controller.rb</a></td>
             <td class="red strong cell--number t-file__coverage">0.00 %</td>
-            <td class="cell--number">70</td>
+            <td class="cell--number">71</td>
             <td class="cell--number">50</td>
             <td class="cell--number">0</td>
             <td class="cell--number">50</td>
@@ -1041,7 +1041,7 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#dba61eadb80decbf876800127bdd79e81598e59d" class="src_link" title="lib/beermapping_api.rb">lib/beermapping_api.rb</a></td>
             <td class="yellow strong cell--number t-file__coverage">87.50 %</td>
-            <td class="cell--number">26</td>
+            <td class="cell--number">27</td>
             <td class="cell--number">16</td>
             <td class="cell--number">14</td>
             <td class="cell--number">2</td>
@@ -4228,7 +4228,7 @@
 
             
 
-            <code class="ruby">  before_action :set_style, only: %i[ show edit update destroy ]</code>
+            <code class="ruby">  before_action :set_style, only: %i[show edit update destroy]</code>
           </li>
         </div>
       
@@ -4877,18 +4877,18 @@
 
             
 
-            <code class="ruby">    # Use callbacks to share common setup or constraints between actions.</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="62">
+          <li class="never" data-hits="" data-linenumber="62">
             
             
 
             
 
-            <code class="ruby">    def set_style</code>
+            <code class="ruby">  # Use callbacks to share common setup or constraints between actions.</code>
           </li>
         </div>
       
@@ -4899,7 +4899,7 @@
 
             
 
-            <code class="ruby">      @style = Style.find(params[:id])</code>
+            <code class="ruby">  def set_style</code>
           </li>
         </div>
       
@@ -4910,18 +4910,18 @@
 
             
 
-            <code class="ruby">    end</code>
+            <code class="ruby">    @style = Style.find(params[:id])</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="65">
+          <li class="missed" data-hits="0" data-linenumber="65">
             
             
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -4932,18 +4932,18 @@
 
             
 
-            <code class="ruby">    # Only allow a list of trusted parameters through.</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="67">
+          <li class="never" data-hits="" data-linenumber="67">
             
             
 
             
 
-            <code class="ruby">    def style_params</code>
+            <code class="ruby">  # Only allow a list of trusted parameters through.</code>
           </li>
         </div>
       
@@ -4954,7 +4954,7 @@
 
             
 
-            <code class="ruby">      params.require(:style).permit(:name, :description, :beer_id)</code>
+            <code class="ruby">  def style_params</code>
           </li>
         </div>
       
@@ -4965,12 +4965,23 @@
 
             
 
-            <code class="ruby">    end</code>
+            <code class="ruby">    params.require(:style).permit(:name, :description, :beer_id)</code>
           </li>
         </div>
       
         <div>
           <li class="missed" data-hits="0" data-linenumber="70">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="71">
             
             
 
@@ -7205,7 +7216,7 @@
 
             
 
-            <code class="ruby">    [ :id, :name, :status, :street, :city, :zip, :country, :overall ]</code>
+            <code class="ruby">    [:id, :name, :status, :street, :city, :zip, :country, :overall]</code>
           </li>
         </div>
       
@@ -7846,7 +7857,7 @@
 
             
 
-            <code class="ruby">    return [] if places.is_a?(Hash) and places[&#39;id&#39;].nil?</code>
+            <code class="ruby">    return [] if places.is_a?(Hash) &amp;&amp; places[&#39;id&#39;].nil?</code>
           </li>
         </div>
       
@@ -7879,7 +7890,7 @@
 
             
 
-            <code class="ruby">    places.map do | place |</code>
+            <code class="ruby">    places.map do |place|</code>
           </li>
         </div>
       
@@ -7961,7 +7972,18 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="24">
+          <li class="never" data-hits="" data-linenumber="24">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="25">
             
             
 
@@ -7972,7 +7994,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="25">
+          <li class="never" data-hits="" data-linenumber="26">
             
             
 
@@ -7983,7 +8005,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="26">
+          <li class="never" data-hits="" data-linenumber="27">
             
             
 
