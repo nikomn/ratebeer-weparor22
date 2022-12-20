@@ -3,12 +3,20 @@
 <h1>Users</h1>
 
 <div id="users">
-  <% @users.each do |user| %>
-    <%= render user %>
-    <p>
-      <%= link_to "Show this user", user %>
-    </p>
-  <% end %>
+  <table class="table table-hover table-striped">
+    <thead>
+    <tr>
+      <th scope="col">Username</th>
+    </tr>
+    </thead>
+    <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= link_to user.username, user %></td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
 </div>
 
 <%= link_to "New user", new_user_path %>

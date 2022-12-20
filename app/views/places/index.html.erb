@@ -8,7 +8,7 @@
 <% end %>
 
 <% if @places %>
-  <table>
+  <table class="table table-hover table-striped">
     <thead>
     <% Place.rendered_fields.each do |field| %>
       <th><%= field %></th>
