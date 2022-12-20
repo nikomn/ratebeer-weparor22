@@ -5,11 +5,11 @@
 <% if current_user %>
   <h4>give a rating:</h4>
 
-  <%= form_with(model: @rating) do |form| %>
-    <%= form.hidden_field :beer_id %>
-    score: <%= form.number_field :score %>
-    <%= form.submit "Create rating" %>
-  <% end %>
+    <%= form_with(model: @rating) do |form| %>
+      <%= form.hidden_field :beer_id %>
+      score: <%= form.number_field :score %>
+      <%= form.submit "Create rating", class:"btn btn-primary" %>
+    <% end %>
 
   <div>
     <%= link_to "Edit this beer", edit_beer_path(@beer) %>
