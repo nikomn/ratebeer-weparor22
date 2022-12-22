@@ -24,7 +24,7 @@
 
 <ul>
   <% @recent_ratings.each do |rating| %>
-    <li> <%= rating.beer.name + " " + rating.score.to_s + " " + rating.created_at.to_s %></li>
+    <li> <%= rating.beer.name + " " + round(rating.score).to_s + " " + rating.created_at.to_s %></li>
   <% end %>
 </ul>
 
