@@ -4,6 +4,8 @@ class RatingsController < ApplicationController
     @recent_ratings = Rating.recent
     @top_breweries = Brewery.top_rated 3
     @top_beers = Beer.top_rated 3
+    @top_styles = Style.top_rated 3
+    @top_raters = User.most_active 3
   end
 
   def new

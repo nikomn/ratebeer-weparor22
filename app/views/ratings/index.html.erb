@@ -7,9 +7,18 @@
   <tr>
     <td><%= render partial: "best" , locals:{ best: @top_breweries, title: "Best breweries" } %></td>
     <td><%= render partial: "best" , locals:{ best: @top_beers, title: "Best beers" } %></td>
+    <td><%= render partial: "best" , locals:{ best: @top_styles, title: "Best styles" } %></td>
   </tr>
   </tbody>
 </table>
+
+<h2>Most active users</h2>
+
+<ul>
+  <% @top_raters.each do |user| %>
+    <li> <%= user.username + " " + user.ratings.count.to_s + " ratings total" %></li>
+  <% end %>
+</ul>
 
 <h2>Most recent ratings</h2>
 
