@@ -1,0 +1,19 @@
+<div>
+  <h4 style="text-align: center"><%= title %></h4>
+  <table class="table table-hover table-striped">
+    <thead>
+      <tr>
+        <th scope="col"><%= best.first.class.name %></th>
+        <th scope="col">Average</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% best.each do |item| %>
+      <tr>
+              <td><%= item.name %></td>
+              <td><%= item.average_rating %></td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>

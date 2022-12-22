@@ -1,11 +1,15 @@
 <div id="<%= dom_id brewery %>">
   <h2><%= link_to "#{brewery.name}", brewery %></h2>
+  <% if not brewery.active  %>
+    <span class="badge bg-secondary">retired</span>
+  <% end %>
 
   <p>
     <i>Established in: <%= brewery.year %></i>
   </p>
+  <%# binding.pry %>
   <p>
-    <i>Beers count: <%= @brewery.beers.count %></i>
+    <i>Beers count: <%= brewery.beers.count %></i>
   </p>
 <!--  <p><%#= brewery.beers.to_a %></p>-->
   <p>

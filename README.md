@@ -4,7 +4,7 @@
 
 Minimissään 50% tehtävistä (53 tehtävää) pitää olla tehtynä.
 
-Tehtynä yht. 64/106 (60%)
+Tehtynä yht. 66/106 (62%)
 
 ### Viikko 1
 
@@ -134,8 +134,8 @@ Vaihtoehtoisesti voi myös lisätä api keyn tiedostoon app/controllers/places_c
 - [ ] Tehtävä 3
 - [x] Tehtävä 4
 - [x] Tehtävä 5
-- [ ] Tehtävä 6
-- [ ] Tehtävä 7
+- [x] Tehtävä 6
+- [x] Tehtävä 7
 - [ ] Tehtävä 8
 - [ ] Tehtävä 9
 - [ ] Tehtävä 10
@@ -144,7 +144,7 @@ Vaihtoehtoisesti voi myös lisätä api keyn tiedostoon app/controllers/places_c
 - [ ] Tehtävä 13
 - [ ] Tehtävä 14-16 (kolmen pisteen arvoinen tehtävä)
 
-yht. 4/16 (25%)
+yht. 6/16 (37%)
 
 ### Viikko 7
 
