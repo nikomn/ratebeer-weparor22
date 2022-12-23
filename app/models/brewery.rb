@@ -1,5 +1,4 @@
 class Brewery < ApplicationRecord
-
   include RatingAverage
   has_many :beers, dependent: :destroy
   has_many :ratings, through: :beers
@@ -12,7 +11,7 @@ class Brewery < ApplicationRecord
   validate :year_cannot_be_in_the_future
 
   scope :active, -> { where active: true }
-  scope :retired, -> { where active: [nil,false] }
+  scope :retired, -> { where active: [nil, false] }
 
   def year_cannot_be_in_the_future
     return unless year.present? && year > Time.now.year
@@ -34,7 +33,7 @@ class Brewery < ApplicationRecord
   # def average_rating
   #   ratings.average(:score).to_f
   # end
-  def self.top_rated(n)
-    return Brewery.all.sort_by{ |b| b.average_rating }.reverse.first(n)
+  def self.top_rated(num)
+    Brewery.all.sort_by(&:average_rating).reverse.first(num)
   end
 end

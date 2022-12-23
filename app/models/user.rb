@@ -15,7 +15,7 @@ class User < ApplicationRecord
     ratings.order(score: :desc).limit(1).first.beer
   end
 
-  def self.most_active(n)
-    return User.all.sort_by{ |b| b.ratings.count }.reverse.first(n)
+  def self.most_active(num)
+    User.all.sort_by{ |b| b.ratings.count }.reverse.first(num)
   end
 end
