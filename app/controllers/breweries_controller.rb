@@ -18,9 +18,9 @@ class BreweriesController < ApplicationController
                         end
 
     @retired_breweries = case order
-                        when "name" then @retired_breweries.sort_by(&:name)
-                        when "year" then @retired_breweries.sort_by(&:year).reverse
-                        end
+                         when "name" then @retired_breweries.sort_by(&:name)
+                         when "year" then @retired_breweries.sort_by(&:year).reverse
+                         end
 
     # render :panimot
   end
