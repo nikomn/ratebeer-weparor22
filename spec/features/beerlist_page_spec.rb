@@ -34,4 +34,20 @@ describe "Beerlist page" do
     expect(find('#beertable').all('.tablerow')[1]).to have_content "Lechte Weisse"
     expect(find('#beertable').all('.tablerow')[2]).to have_content "Nikolai"
   end
+
+  it "orders beers by style when table heading style clicked", :js => true do
+    visit beerlist_path
+    find('#style').click
+    expect(find('#beertable').all('.tablerow')[0]).to have_content "Nikolai"
+    expect(find('#beertable').all('.tablerow')[1]).to have_content "Fastenbier"
+    expect(find('#beertable').all('.tablerow')[2]).to have_content "Lechte Weisse"
+  end
+
+  it "orders beers by brewery when table heading brewery clicked", :js => true do
+    visit beerlist_path
+    find('#brewery').click
+    expect(find('#beertable').all('.tablerow')[0]).to have_content "Lechte Weisse"
+    expect(find('#beertable').all('.tablerow')[1]).to have_content "Nikolai"
+    expect(find('#beertable').all('.tablerow')[2]).to have_content "Fastenbier"
+  end
 end
