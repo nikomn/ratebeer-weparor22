@@ -10,8 +10,8 @@
   <table class="table table-hover table-striped">
     <thead>
     <tr>
-      <th scope="col">Name of brewery</th>
-      <th scope="col">Foundation year</th>
+      <th><%= link_to "Name of brewery", breweries_path(order: "name")%></th>
+      <th><%= link_to "Foundation year", breweries_path(order: "year")%></th>
     </tr>
     </thead>
     <tbody>
