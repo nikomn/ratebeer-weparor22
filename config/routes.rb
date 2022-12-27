@@ -11,6 +11,9 @@ Rails.application.routes.draw do
 
   get 'kaikki_bisset', to: 'beers#index'
 
+  get 'beerlist', to: 'beers#list'
+  get 'brewerylist', to: 'breweries#list'
+
   # get 'ratings', to: 'ratings#index'
   #
   # get 'ratings/new', to:'ratings#new'
