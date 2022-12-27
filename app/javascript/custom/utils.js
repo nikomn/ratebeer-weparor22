@@ -82,8 +82,11 @@ const beers = () => {
 
 };
 
+const BREWERIES = {};
+
 const createBreweryTableRow = (brewery) => {
     const tr = document.createElement("tr");
+    tr.classList.add("tablerow");
     const breweryname = tr.appendChild(document.createElement("td"));
     breweryname.innerHTML = brewery.name;
     const breweryyear = tr.appendChild(document.createElement("td"));
@@ -96,22 +99,58 @@ const createBreweryTableRow = (brewery) => {
     return tr;
 };
 
-const handleBreweriesResponse = (breweries) => {
-    console.log(breweries)
-    //const breweryList = breweries.map((brewery) => `<li>${brewery.name}</li>`);
-    //
-    // document.getElementById("breweries").innerHTML = `<ul> ${breweryList.join("")} </ul>`;
-
+BREWERIES.show = () => {
     document.querySelectorAll(".tablerow").forEach((el) => el.remove());
     const table = document.getElementById("brewerytable");
 
-    breweries.forEach((brewery) => {
+    BREWERIES.list.forEach((brewery) => {
         const tr = createBreweryTableRow(brewery);
         table.appendChild(tr);
     });
 };
 
+BREWERIES.sortByName = () => {
+    BREWERIES.list.sort((a, b) => {
+        return a.name.toUpperCase().localeCompare(b.name.toUpperCase());
+    });
+};
+
+BREWERIES.sortByYear = () => {
+    BREWERIES.list.sort((a, b) => {
+        return b.year - a.year;
+    });
+};
+
+BREWERIES.sortByNumOfBeers = () => {
+    BREWERIES.list.sort((a, b) => {
+        return b.beers.length - a.beers.length;
+    });
+};
+
+const handleBreweriesResponse = (breweries) => {
+    BREWERIES.list = breweries;
+    BREWERIES.show();
+};
+
 const breweries = () => {
+    document.getElementById("name").addEventListener("click", (e) => {
+        e.preventDefault;
+        BREWERIES.sortByName();
+        BREWERIES.show();
+    });
+
+    document.getElementById("year").addEventListener("click", (e) => {
+        e.preventDefault;
+        BREWERIES.sortByYear();
+        BREWERIES.show();
+    });
+
+    document.getElementById("beer-count").addEventListener("click", (e) => {
+        e.preventDefault;
+        BREWERIES.sortByNumOfBeers();
+        BREWERIES.show();
+    });
+
     fetch("breweries.json")
         .then((response) => response.json())
         .then(handleBreweriesResponse);
